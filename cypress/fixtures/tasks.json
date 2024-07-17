@@ -1,0 +1,17 @@
+{
+    "baseData": {
+        "nome": "João",
+        "dataNascimento": "25/11/1995",
+        "eMail1": "joao@example.com",
+        "eMail2": "joao.alternativo@example.com",
+        "sobrenome": "Silva",
+        "CpfValido": "047.528.601-47",
+        "CpfInvalido": "123.456.789-00",
+        "senha1": "senhaSegura123",
+        "senha2": "senhaSegura1234",
+        "inglesBeginner": "Beginner",
+        "inglesIntermediate": "Intermediate",
+        "inglesAdvanced": "Advanced"
+        
+    }
+}

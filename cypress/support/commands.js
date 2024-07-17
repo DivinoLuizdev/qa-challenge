@@ -23,3 +23,23 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+// No arquivo cypress/support/commands.js
+
+Cypress.Commands.add('visitAndClickButton', (url, buttonDataCy) => {
+    cy.visit(url);
+    cy.get(`[data-cy="${buttonDataCy}"]`).click();
+  });
+  
+
+Cypress.Commands.add('isRequired', (targetMessage, target) => {
+    cy.get(target)
+        .invoke('prop', 'validationMessage')
+        .should((text) => {
+            expect(targetMessage).to.eq(text)
+        })
+})
+
+
+
+ 
