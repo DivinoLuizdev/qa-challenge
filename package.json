@@ -1,0 +1,14 @@
+{
+  "name": "qa-challenge",
+  "version": "1.0.0",
+  "description": "Este projeto  consiste em avaliar seu conhecimento e habilidades em testes automatizados -  https://qastage.buildbox.one/18/cadastro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Divino Luiz da Costa Junior",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^12.2.0"
+  }
+}
