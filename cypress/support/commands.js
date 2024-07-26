@@ -28,7 +28,7 @@
 
 Cypress.Commands.add('visitAndClickButton', (url, buttonDataCy) => {
     cy.visit(url);
-    cy.get(`[data-cy="${buttonDataCy}"]`).click();
+    cy.get( buttonDataCy).click();
   });
   
 
